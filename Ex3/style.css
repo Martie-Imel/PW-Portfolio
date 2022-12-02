@@ -1,0 +1,24 @@
+body
+{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    align-tracks: center;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+#p1
+{
+    background-color: cornsilk;
+    color: goldenrod;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    align-tracks: center;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

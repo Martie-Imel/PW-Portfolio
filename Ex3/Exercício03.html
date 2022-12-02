@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ex3.js"></script>
+</head>
+<body>
+<h1>Calcule o seu gasto!!!</h1>
+<div>
+    <form action="" method="post" id="p1">
+        <p>Digite o nome do produto:</p>
+        <input type="text" id="n1">
+        <p>Digite o valor do produto:</p>
+        <input type="number" id="v1">
+        <p>Digite a quantidade vendida do produto:</p>
+        <input type="number" id="q1">
+    </form>
+    <br>
+</div>
+
+<input type="button" id="btna" value="Adicionar" onclick="produto()">
+
+<input type="button" id="btnc" value="Calcular" disabled="true" onclick="comprar()">
+
+<input type="button" id="btnr" value="Reiniciar" disabled="true" onclick="reiniciar()">
+
+<p>Produtos:</p>
+<p id="pro"></p>
+<p id="res">O valor total é de: </p>
+</body>
+</html>

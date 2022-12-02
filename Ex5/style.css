@@ -1,0 +1,17 @@
+#bg
+{
+    background-image: url("https://dg31sz3gwrwan.cloudfront.net/fanart/385891/62385540-0-q80.jpg");
+}
+
+form
+{
+    background-color: rgb(56, 56, 56);
+    border: thick double lightblue;
+    padding-left: 5%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 30%;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ex6.js"></script>
+</head>
+<body>
+    <body background="https://pbs.twimg.com/media/EvbypSJXUAI0xTJ.jpg"></body>
+    <br><br><br><br><br><br>
+    <form action="" method="post">
+        <p>Seu gênero:</p>
+        <select name="Sexo" id="sexo" onchange="BuscarDados()">
+            <option name="Sexo" value="a" id="a" selected>Escolha um aqui:</option>
+            <option name="Sexo" value="M" id="M">Masculino</option>
+            <option name="Sexo" value="F" id="F">Feminino</option>
+        </select>
+        <p>Digite o seu tamanho...</p>
+        <input type="number" name="Tamanho" id="h">
+        <br><br>
+        <input type="button" value="Calcular" id="btn" onclick="peso()">
+        <p>Seu peso ideal é: </p><p id="res"></p>
+    </form>
+</body>
+</html>
